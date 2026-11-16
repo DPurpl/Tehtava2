@@ -1,5 +1,5 @@
 body {
-    max-width: 800px;
+    max-width: 70%;
     margin: auto;
     background-color: burlywood;
 }
@@ -10,10 +10,52 @@ body {
     justify-content: center;
     background-image: url(Kuvat/windward_plains.webp);
     max-width: 700px;
+    padding-top: 20px;
 }
 
 #title_img {
     display: flex;
     margin: auto;
     max-width: 70%;
+}
+
+#aseet {
+    display: flex;
+    margin: auto;
+}
+
+#aseet img {
+    max-width: 450px;
+    padding-right: 50px;
+}
+
+.monster {
+    display: flex;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.monster img {
+    max-width: 400px;
+    padding-left: 60px;
+}
+
+#MH_World {
+    display: flex;
+    margin: auto;
+}
+
+#MH_World img {
+    max-width: 400px;
+    padding-right: 50px;
+}
+
+#MH_Wilds {
+    display: flex;
+    margin: auto;
+}
+
+#MH_Wilds img {
+    max-width: 400px;
+    padding-right: 50px;
 }
