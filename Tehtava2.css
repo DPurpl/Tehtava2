@@ -1,0 +1,19 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    background-color: burlywood;
+}
+
+#title {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-image: url(Kuvat/windward_plains.webp);
+    max-width: 700px;
+}
+
+#title_img {
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+}
