@@ -1,5 +1,5 @@
 body {
-    font-family: Viga;
+    font-family: Viga, sans-serif;
     max-width: 70%;
     max-width: 1200px;
     margin: auto;
@@ -24,6 +24,10 @@ body {
 h1 {
     text-align: center;
     margin-top: 60px;
+}
+
+.p_ilman_kuvaa {
+    margin: 0px 130px 0px 130px;
 }
 
 #aseet {
@@ -101,6 +105,7 @@ h1 {
 
 @media (max-width: 1000px) {
     body {max-width: 850px; padding-left: 20px; padding-right: 20px;}
+    .p_ilman_kuvaa {margin: 0px;}
     #aseet img {display: none;}
     .monster img {display: none;}
     .game_name {display: inline;}
